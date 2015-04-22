@@ -3,7 +3,8 @@ var thirty = ["APR","JUN","SEP","NOV"];
 var feb = ["FEB"];
 
 var makeDates = function(thirtyOne, thirty, feb) {
-	var month = document.getElementById("month-year");
+	
+	var month = document.getElementById("label");
 	var days = document.querySelector("td");
 	
 	if(month === feb) { 
@@ -28,13 +29,6 @@ var makeDates = function(thirtyOne, thirty, feb) {
 		}
 	}
 }
-
-// var button = document.getElementByClassName("unselected");
-// button.onClick = dayStuff() {
-// 	if(this.class === "unselected"){ 
-// 		this.class = "selected";
-// 	}
-// }
 
 var button = document.getElementById("next");
 
